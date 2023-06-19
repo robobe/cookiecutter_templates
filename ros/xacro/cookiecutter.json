@@ -1,0 +1,12 @@
+{
+    "package_name": "gazebo_tutorial_pkg",
+    "robot_name": "rrbot",
+    "has_camera": [
+        "y",
+        "n"
+    ],
+    "generate_this": [
+        "n",
+        "y"
+    ]
+}

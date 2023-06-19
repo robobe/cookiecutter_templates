@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <xacro:macro name="box_inertia" params="mass w h">
+        <inertia
+            ixx="${mass / 12.0 * (w*w + h*h)}" ixy="0.0" ixz="0.0"
+            iyy="${mass / 12.0 * (h*h + w*w)}" iyz="0.0"
+            izz="${mass / 12.0 * (w*w + w*w)}" />
+    </xacro:macro>
+</robot>
